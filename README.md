@@ -1,10 +1,10 @@
-install node.js
+// install node.js
 
 // install typescript
-npm install -g typescript
+    npm install -g typescript
 
 // check your typescript version
-tsc -v
+    tsc -v
 
 // COMPILE ts file to js file
 
