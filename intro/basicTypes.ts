@@ -9,7 +9,7 @@ let binary: number = 0b1010;
 let octal: number = 0o744;
 
 //String
-let says:String = "Hello, World"
+let says:string = "Hello, World"
 says = "Hello HOI" 
 
 //Array
