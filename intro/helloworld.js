@@ -3,4 +3,5 @@ console.log(say); // "Hello, World"
 say = "Hello HOI";
 // say = 555 // compile error 
 var hello = "The HOI Stroy";
-hello = 123;
+console.log(typeof (hello)); // String
+hello = 123; // compile error 

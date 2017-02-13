@@ -9,5 +9,7 @@ say = "Hello HOI"
 
 let hello = "The HOI Stroy"
 
-hello = 123
+console.log(typeof(hello)) // String
+
+hello = 123 // compile error 
 
