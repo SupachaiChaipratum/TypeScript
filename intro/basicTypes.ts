@@ -31,3 +31,27 @@ let man: [string, number];
 
 man = ["HOI", 24]
 // man = [24 , "HOI"] // Type 'number' is not assignable to type 'string'. 
+
+// Enum
+enum Grade {A, B, C, D ,F , I ,U ,W};
+let student1 = Grade.A;
+let student2 = Grade.B;
+
+// Any
+let val : any = 1
+val = "2"
+val =[1,"2",true]
+
+// Void
+let val1 : void = null
+let val2 : void = undefined
+
+// Type assertions
+let someValue: any = "123";
+let lengthOfValue :number = (<string>someValue).length;
+
+console.log(lengthOfValue) // 3
+
+
+
+
