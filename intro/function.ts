@@ -13,7 +13,7 @@ function foo(sample: number) : number {
 }
 
 foo(1) // ok
-// foo("1") // error
+ foo() // error
 
 let num1 = foo(2); // ok
 // num1 = "2"; // error
@@ -22,6 +22,7 @@ function bar(ex){
   
     return ex;
 }
+bar()
 
 
 // Optional Parameters
