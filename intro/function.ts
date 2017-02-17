@@ -37,23 +37,17 @@ human("HOI","Stroy",25) // ok
 
 //====
 
-// Default Parameters
-function buildName(firstName: string, lastName = "Smith") {
-    return firstName + " " + lastName;
-}
-let result1 = buildName("Bob");                  // works correctly now, returns "Bob Smith"
-let result2 = buildName("Bob", undefined);       // still works, also returns "Bob Smith"
-let result4 = buildName("Bob", "Adams");         // ah, just right
-
-
-function buildName(firstName = "Will", lastName: string) {
-    return firstName + " " + lastName;
+//Default Parameters
+function addNum(num1: number = 0, num2 :number = 0) {
+    return num1+num2;
 }
 
-let result1 = buildName("Bob");                  // error, too few parameters
-let result2 = buildName("Bob", "Adams", "Sr.");  // error, too many parameters
-let result3 = buildName("Bob", "Adams");         // okay and returns "Bob Adams"
-let result4 = buildName(undefined, "Adams");     // okay and returns "Will Adams"
+// let addNum = (num1: number = 0, num2 :number = 0) : number => num1+num2;
+
+
+
+
+// okay and returns "Will Adams"
 
 
 // Rest Parameters
