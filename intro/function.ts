@@ -19,9 +19,10 @@ let num1 = foo(2); // ok
 // num1 = "2"; // error
 
 function bar(ex){
-
-    return "ex";
+  
+    return ex;
 }
+
 
 // Optional Parameters
 function human(fname: string,lname:string, age?: number): void {
