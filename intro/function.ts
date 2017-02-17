@@ -13,7 +13,6 @@ function foo(sample: number) : number {
 }
 
 foo(1) // ok
- foo() // error
 
 let num1 = foo(2); // ok
 // num1 = "2"; // error
@@ -22,7 +21,7 @@ function bar(ex){
   
     return ex;
 }
-bar()
+
 
 
 // Optional Parameters
@@ -31,7 +30,8 @@ function human(fname: string,lname:string, age?: number): void {
 }
 
 human("HOI","Stroy",25) // ok
- // human("HOI") // error
+human("HOI","Stroy") // ok
+human("HOI") // error
 
 
 
