@@ -39,10 +39,11 @@ human("HOI","Stroy",25) // ok
 //====
 
 //Default Parameters
-function addNum(num1: number = 0, num2 :number = 0) {
+function addNum(num1: number, num2 :number = 0) {
     return num1+num2;
 }
 
+// addNum(); // error
 // let addNum = (num1: number = 0, num2 :number = 0) : number => num1+num2;
 
 
