@@ -48,9 +48,12 @@ human("HOI") // error
 // }
 
 
-function addNum(num1: number=0, num2 :number =0 ) {
+function addNum(num1: number=0, num2 :number ) {
     return num1+num2;
 }
+addNum();
+addNum(undefined,1);
+addNum(1,2);
 
 
 // addNum(); // error
