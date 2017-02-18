@@ -17,6 +17,14 @@ interface Car {
     color?: string;
 }
 
+ //Readonly properties
+interface Person {
+    firstname : string;
+    lastanme : string;
+    readonly birthday : string;
+    readonly sex: string;
+     
+}
 
 
 let myBook : Book= {title: "Harry", author: "JK" , numpages:300};
