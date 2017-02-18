@@ -1,12 +1,12 @@
-
-
-interface Man {
-    label: string;
+interface Book {
+    title: string;
+    author: string;
+    numpages: number;
 }
 
-function printLabel(labelledObj: Man) {
-    console.log(labelledObj.label);
+function printMyBook(myBook: Book) {
+    console.log(myBook.title);
 }
 
-let myObj = {size: 10, label: "Size 10 Object"};
-printLabel(myObj);
+let myBook = {title: "Harry", author: "JK" , numpages:300};
+printMyBook(myBook);
