@@ -8,7 +8,7 @@
     
     tsc -v
 
-// a COMPILE ts file to js file
+// a s COMPILE ts file to js file
 
     // Compile a single file:
     tsc app.ts
